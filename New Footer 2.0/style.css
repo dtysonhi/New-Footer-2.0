@@ -98,8 +98,19 @@ footer {
   color: #fff;
 }
 
+.footer-bottom a {
+  color: #ffffff; 
+  text-decoration: underline; 
+}
 
-/* Pretty sure this will fix my mobile layout issues  */
+.footer-bottom a:hover {
+  color: #bbb; 
+  text-decoration: underline; 
+}
+
+
+
+/* Mobile Layout Stuff  */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -134,5 +145,14 @@ footer {
 
   .footer-bottom {
     text-align: left; 
+  }
+  
+
+  .request-call-btn{
+    background-color: #073369;
+  }
+
+  .request-call-btn:hover {
+    background-color: #041a35;
   }
 }
